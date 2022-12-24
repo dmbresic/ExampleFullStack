@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight.Me</title>
+    <script type="text/javascript" src="flightPage.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+</head>
+<body>
+<h3>Flight.Me
+    <br>
+    Delta gets you close, we get you there
+</h3>
+
+
+<div class="welcome-message">
+    <h4>Our Services</h4>
+
+    <p>Please complete the form below to create your flight enter information in the provided textboxes. <br>
+    If you already have a flight, please enter your flight ID into the provided textbox below.</p>
+</div>
+<div class="createForm">
+    <form class="card-content" id="create-flight-form">
+        <p class="form-field">
+            <label>Name</label>
+            <br>
+            <input type="text" required class="validated-field" id="create-flight-name" placeholder="Name">
+        </p>
+
+        <p class="form-field">
+            <label>Email</label>
+            <br>
+            <input type="text" required class="validated-field" id="create-flight-email" placeholder="Email">
+        </p>
+
+        <p class="form-field">
+            <label>Leaving From</label>
+            <br>
+            <select required class="validated-field" id="create-flight-select1">
+                <option selected="selected" disabled="true" hidden>Leaving From...</option>
+                <option>Atlanta</option>
+                <option>Chicago</option>
+                <option>Detroit</option>
+                <option>Houston</option>
+                <option>Indianapolis</option>
+                <option>Los Angeles</option>
+                <option>Miami</option>
+                <option>New York</option>
+                <option>San Francisco</option>
+            </select>
+        </p>
+
+        <p class="form-field">
+            <label>Going To</label>
+            <br>
+            <select required class="validated-field" id="create-flight-select2">
+                <option selected="selected" disabled="true" hidden>Select Destination</option>
+                <option>Atlanta</option>
+                <option>Chicago</option>
+                <option>Detroit</option>
+                <option>Houston</option>
+                <option>Indianapolis</option>
+                <option>Los Angeles</option>
+                <option>Miami</option>
+                <option>New York</option>
+                <option>San Francisco</option>
+            </select>
+        </p>
+
+        <p class="form-field">
+            <label>Number of Passengers</label>
+            <br>
+            <input type="text" required class="validated-field" id="create-flight-passenger" placeholder="Number of Passengers">
+        </p>
+
+        <p class="form-field">
+            <label>Payment Method</label>
+            <br>
+            <select required="validated-field" id="create-flight-pay">
+                <option selected="selected" disabled="true" hidden>Select Payment</option>
+                <option>Card</option>
+                <option>PayPal</option>
+                <option>Western Union</option>
+                <option>BitCoin</option>
+                <option>Check</option>
+            </select>
+        </p>
+        <button type="submit">Create Flight</button>
+    </form>
+</div>
+
+<div class="sectionHead">
+<h2>Looking for information on your Flight? <br> Enter your flight ID in the box below!</h2>
+</div>
+
+<div class="searchform">
+    <form class="card-content" id="search-flight-form">
+        <p class="form-field">
+            <label>Enter Flight ID</label>
+            <br>
+            <input type="text" required class="validated-field" id="search-flight-field" placeholder="Flight ID">
+        </p>
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<div class="card" id="result">
+    <h2>Your Flight Info:</h2>
+    <p id="result-info"></p>
+</div>
+
+
+<div class="flightList">
+    <form class="card-content" id="flight-list-form">
+    <h4>Want a List of all flights? Click the button below!</h4>
+    <button type="submit">Get List Of All Flights</button>
+    </form>
+</div>
+
+<div class="card" id="results">
+    <h2>Flight Info For All Flights</h2>
+    <p id="results-info"></p>
+</div>
+
+<div class="deletePage">
+    <h2>Need to cancel your trip? Enter your flight ID below!</h2>
+    <p>We're sorry to see you go, but consider us the next time you take to the skies!</p>
+</div>
+
+<div class="deleteForm">
+    <form class="card-content" id="delete-flight-form">
+        <p class="form-field">
+            <label>Flight To Cancel</label>
+            <br>
+            <input type="text" required class="validated-field" id="delete-flight-id" placeholder="Flight ID">
+        </p>
+        <button type="submit">No thanks, I'll walk</button>
+    </form>
+</div>
+
+<br>
+
+<!--<div class="card" id="results">-->
+<!--    <h2>Flight Searched Info</h2>-->
+<!--    <p id="results-info"></p>-->
+<!--</div>-->
+
+<div class="about">
+    <h4><a href="./about.html">About Us</a></h4>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+@font-face {
+    font-family: Bebas;
+    src: url(./styles/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+   font-family: Alfa;
+  src: url(./styles/AlfaSlabOne-Regular.ttf);
+}
+
+body{
+    background-image: url("https://i.pinimg.com/originals/a1/ab/6a/a1ab6a76b0c9c982bc0a0a478cdf32e7.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    overflow: auto;
+    width: auto;
+}
+
+h3{
+    font-family: Bebas;
+    color:whitesmoke;
+    font-size: 50px;
+    background-color: black;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sectionHead{
+    border: 1px solid black;
+    background-color: rgba(245, 113, 11, 0.65);
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.deleteForm{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgba(245, 113, 11, 0.65);
+    padding: 10px;
+}
+
+.deleteForm label{
+    font-size: 25px;
+    font-family: Alfa;
+}
+
+.delete-message{
+    font-size: 25px;
+    text-align: center;
+    font-family: Alfa;
+}
+
+.card{
+    border: 1px solid black;
+    background-color: rgba(245, 113, 11, 0.65);
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+homepage a:hover{
+    box-shadow: 0px 4px;
+    color: aqua;
+    background-color: black;
+}
+
+.createForm{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: rgba(245, 29, 29, 0.7);
+    padding: 10px;
+}
+
+.createForm label{
+    font-size: 25px;
+    font-family: Alfa;
+}
+
+.infosec{
+    text-align: center;
+}
+
+.infosec p{
+    font-size: 20px;
+    background-color: white;
+}
+
+.searchform{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(245, 29, 29, 0.7);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.searchform label{
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    font-family: Alfa;
+}
+
+h2{
+    text-align: center;
+}
+
+.search{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(245, 29, 29, 0.7);
+    padding: 10px;
+}
+
+.textsearch{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(144, 198, 234, 0.8);
+    padding: 8px;
+    font-family: Alfa;
+}
+
+.deletePage{
+    background-color: rgba(245, 29, 29, 0.7);
+    padding: 10px;
+    margin: 20px;
+}
+
+.deletePage{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(245, 29, 29, 0.7);
+    padding: 10px;
+    font-family: Bebas;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flightList{
+    text-align: center;
+    background-color: rgba(245, 29, 29, 0.7);
+    margin: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.flightList h4{
+    font-size: 25px;
+    font-family: Alfa;
+}
+
+.welcome-message h4{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(245, 29, 29, 2.0);
+    font-family: Alfa;
+    text-decoration: underline;
+}
+
+.welcome-message p{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Bebas;
+}
+
+h2{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: Alfa;
+}
+
+a{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.about{
+    text-align: right;
+}
+
+.about a{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+td{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Alfa;
+    font-size: 20px;
+}
+
+table{
+    margin: auto;
+    width: 50%;
+}

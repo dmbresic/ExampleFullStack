@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../styles/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: rgb(64, 163, 102);
+}
+
+h3{
+    font-family: Bebas;
+    color:whitesmoke;
+    font-size: 50px;
+    background-color: black;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: Bebas;
+}
+
+footer{
+    font-family: Bebas;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+a{
+    color: white;
+    padding: 10px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: rgb(170, 23, 23);
+    background-color: black;
+}

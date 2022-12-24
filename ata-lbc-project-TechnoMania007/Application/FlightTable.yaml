@@ -1,0 +1,14 @@
+Resources:
+  CartonsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      "AttributeDefinitions":
+        - "AttributeName": "flightId"
+          "AttributeType": "S"
+      "KeySchema":
+        - "AttributeName": "flightId"
+          "KeyType": "HASH"
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: false
+      BillingMode: PAY_PER_REQUEST
+      TableName: "Flights"
